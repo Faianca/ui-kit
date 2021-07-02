@@ -458,9 +458,7 @@ function ChannelHeader(_ref) {
     className: "sendbird-channel-header__title__right__user-id",
     type: index$2.LabelTypography.BODY_2,
     color: index$2.LabelColors.ONBACKGROUND_2
-  }, user.userId))), React__default.createElement("div", {
-    className: "sendbird-channel-header__right-icon"
-  }, iconButton));
+  }, user.userId))));
 }
 ChannelHeader.propTypes = {
   user: PropTypes.shape({

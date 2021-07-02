@@ -1,6 +1,6 @@
 {
   "name": "faianca-sendbird-uikit",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "React based UI kit for sendbird",
   "main": "dist/cjs/index.js",
   "module": "index.js",
