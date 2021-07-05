@@ -389,9 +389,7 @@ function ChannelPreview(_ref) {
     className: "sendbird-channel-preview__content__lower__unread-message-count"
   }, getChannelUnreadMessageCount(channel) && React.createElement(Badge, {
     count: getChannelUnreadMessageCount(channel)
-  })))), React.createElement("div", {
-    className: "sendbird-channel-preview__action"
-  }, ChannelAction));
+  })))));
 }
 ChannelPreview.propTypes = {
   channel: PropTypes.shape({
